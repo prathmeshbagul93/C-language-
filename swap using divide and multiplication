@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main(){
+	
+	int a=25 , b=5;
+	printf("a = 25\n");
+	printf("b = 5\n");
+	
+	a = a/b; // 25/5, a=5
+	b = a*b;// a=5 , 5*5 ,b=25
+	
+	printf("now a=%d\n",a);
+	printf("now b=%d\n",b);
+}
